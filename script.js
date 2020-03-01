@@ -28,7 +28,7 @@ function closeModal() {
 
 // function to exit on window click; make sure event target is: modal (the dark area around?)
 function outsideClick(e) {
-    if(e.target == modal) {
-        modal.style.display = "none";
-    }
+  if (e.target == modal) {
+    modal.style.display = "none";
+  }
 }
